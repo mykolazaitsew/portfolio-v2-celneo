@@ -22,14 +22,15 @@ public/
 │ ├── dark_mode.svg
 │ ├── light_mode.svg
 │ └── favicon.ico
-├── index.html
-├── style.css
 
 src/
 └── components/
 ├── click-bubles.js # Handles bubble effects on clicks
 ├── cursor-glow.js # Controls glowing cursor
 └── darkmode.js # Toggles dark/light mode
+root/
+├── index.html
+├── style.css
 ```
 
 ## 🚀 Getting Started
@@ -41,7 +42,7 @@ To run the project locally:
    git clone https://github.com/mykolazaitsew/portfolio.git
    ```
 
-2. Open `src/index.html` in your browser.
+2. Open `index.html` in your browser.
 
 That’s it — no build step or server required!
 
